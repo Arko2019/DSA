@@ -1,4 +1,4 @@
-package array;
+package dsa.array;
 
 public class Array {
     public int[] main(String[] args){

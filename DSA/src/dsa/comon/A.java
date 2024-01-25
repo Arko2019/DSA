@@ -1,4 +1,4 @@
-package comon;
+package dsa.comon;
 
 public class A {
 

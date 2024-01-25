@@ -1,4 +1,4 @@
-package BigOLogic;
+package dsa.BigOLogic;
 
 public class BigOlogic {
 

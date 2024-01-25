@@ -1,4 +1,4 @@
-package list.singleLinkList;
+package dsa.list.singleLinkList;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,34 +29,42 @@ public class SinglyListMain {
 
     }
     public static Node addTwoNumbers(Node l1, Node l2) {
-        int l1Value=0;
-        int l2Value=0;
-        int sum=0;
-        Node headNode=null;
-        Node tmp=headNode;
-        while(l1!=null){
-            l1Value=l1Value*10+l1.data;
-            l1=l1.next;
-        }
-        while(l2!=null){
-            l2Value=l2Value*10+l2.data;
-            l2=l2.next;
-        }
-        sum=l1Value+l2Value;
-        while(sum!=0){
-            Node newNode=new Node(sum%10);
-
-            if(headNode==null){
-                headNode=newNode;
-                tmp=newNode;
-
-            }else{
-                tmp.next=newNode;
-                tmp=tmp.next;
+        Node result = null;
+        Node temp = result;
+        int num = 0;
+        int carry = 0;
+        while(l1 != null || l2 !=null){
+            int a=0;
+            int b=0;
+            if(l1!=null){
+                a=l1.data;
+                l1 = l1.next;
             }
-            sum/=10;
+            if(l2!=null){
+                b=l2.data;
+
+                l2 = l2.next;
+            }
+            int sum = a + b + carry;
+            carry = sum / 10;
+            num = sum % 10;
+            Node node = new Node(num);
+            if(result==null){
+                result=node;
+                temp=result;
+            }else{
+                temp.next=node;
+                temp = temp.next;
+            }
+            //temp.next=node;
+            //System.out.println(headNode.val);
+            //  System.out.println(headNode.next);
+
 
         }
-        return headNode;
+        if (carry != 0) {
+            temp = new Node(carry);
+        }
+        return result;
     }
 }

@@ -1,10 +1,9 @@
 package dsa.tree.binary;
 
-import dsa.tree.TreeNode;
-
 //Binary tree which divided into two node/max two children
-public class BinaryTree {
+public class BinaryTreeMain {
     public static void main(String[] args) {
+        BinaryTreeLL binaryTreeLL = new BinaryTreeLL();
         BinaryNode n1 = new BinaryNode();
         n1.value = "N1";
         BinaryNode n2 = new BinaryNode();
@@ -23,6 +22,8 @@ public class BinaryTree {
         n8.value = "N8";
         BinaryNode n9 = new BinaryNode();
         n9.value = "N9";
+        BinaryNode n10 = new BinaryNode();
+        n10.value = "N10";
 
         n1.left = n2;
         n1.right = n3;
@@ -31,10 +32,34 @@ public class BinaryTree {
         n3.left = n6;
         n3.right = n7;
         n4.left = n8;
-        n4.right = n9;
+        //n4.right = n9;
+        binaryTreeLL.root = n1;
+        System.out.println("PreOrder:");
+        binaryTreeLL.preOrder(binaryTreeLL.root);
+        System.out.println();
+        System.out.println("InOrder:");
+        binaryTreeLL.inOrder(binaryTreeLL.root);
+        System.out.println();
+        System.out.println("PostOrder:");
+        binaryTreeLL.postOrder(binaryTreeLL.root);
+        System.out.println();
+        System.out.println("LevelOrder:");
+        binaryTreeLL.levelOrder();
 
-       // n1.preOrder();
+        System.out.println();
+        binaryTreeLL.search("N11");
+        System.out.println("Insert Nodes");
+       // binaryTreeLL.insert(n10);
+        System.out.println();
+        binaryTreeLL.levelOrder();
+        System.out.println();
+        System.out.println(binaryTreeLL.getDeepestNode().value);
+        System.out.println();
+        binaryTreeLL.deleteDeepestNode();
+        binaryTreeLL.levelOrder();
 
 
     }
+
+
 }

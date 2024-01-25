@@ -1,4 +1,4 @@
-package list.interview;
+package dsa.list.interview;
 
 import java.util.HashSet;
 import java.util.Set;

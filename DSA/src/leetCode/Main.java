@@ -1,12 +1,13 @@
+package leetCode;
+
+import java.util.function.Function;
+
 public class Main {
     public static void main(String[] args) {
-       int no=986;
-       int num=0;
-       while(no!=0){
-           int a=no%10;
-           num=num*10+a;
-           no=no/10;
-       }
-        System.out.println(num);
+        Function<Integer,Integer>fun=a->a+a;
+        System.out.println(show(10).apply(20));
+    }
+    static Function<Integer,Integer>  show(int a){
+        return b->b+a;
     }
 }

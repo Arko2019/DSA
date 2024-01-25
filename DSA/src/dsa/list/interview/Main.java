@@ -1,4 +1,4 @@
-package list.interview;
+package dsa.list.interview;
 
 public class Main {
     public static void main(String arg[]){

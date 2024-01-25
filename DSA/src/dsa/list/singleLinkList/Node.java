@@ -1,4 +1,4 @@
-package list.singleLinkList;
+package dsa.list.singleLinkList;
 
 public class Node {
     int data;
