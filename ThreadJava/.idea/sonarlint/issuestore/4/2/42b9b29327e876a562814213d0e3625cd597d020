@@ -1,0 +1,15 @@
+
+^
+java:S3014"IRemove this use of "ThreadGroup". Prefer the use of "ThreadPoolExecutor".(áÚƒY
+_
+java:S3014
+"IRemove this use of "ThreadGroup". Prefer the use of "ThreadPoolExecutor".(Æ‚’¼
+_
+java:S3014"IRemove this use of "ThreadGroup". Prefer the use of "ThreadPoolExecutor".(•®ÛÏ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º¥¹¥úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ˆÖÇ¹ÿÿÿÿÿ
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(ˆûÁšúÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(›Þ¬å
+P	java:S125"<This block of commented-out lines of code should be removed.(€Ÿ›[
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ô»·
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÿë“

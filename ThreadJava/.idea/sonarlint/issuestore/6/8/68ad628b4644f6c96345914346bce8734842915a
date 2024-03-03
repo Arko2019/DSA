@@ -1,0 +1,24 @@
+
+`	java:S112
+"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+<
+java:S1860"&Synchronize on a new "Object" instead.(§—ç²
+t
+java:S2142	"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+Y
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(á˜ ¶
+A
+java:S1860"&Synchronize on a new "Object" instead.(‡ôö›ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(²¾Å¦ÿÿÿÿÿ
+A
+java:S1860"&Synchronize on a new "Object" instead.(‡ôö›ùÿÿÿÿ
+t
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+Y
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(á˜ ¶
+<
+java:S1860"&Synchronize on a new "Object" instead.(§—ç²
+S	java:S106"9Replace this use of System.out or System.err by a logger.(²¾Å¦ÿÿÿÿÿ

@@ -1,0 +1,9 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ð¼Øùÿÿÿÿ
+M
+java:S1854"7Remove this useless assignment to local variable "fun".(°ŒÔË
+l
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(°ŒÔË
+>
+java:S1481"(Remove this unused "fun" local variable.(°ŒÔË
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÐÚ³ê

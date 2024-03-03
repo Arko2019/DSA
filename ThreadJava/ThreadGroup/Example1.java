@@ -18,7 +18,7 @@ public class Example1 {
         th.start();
         // Check Sytem thread
         ThreadGroup system=Thread.currentThread().getThreadGroup().getParent();
-        
+
         Thread[]t=new Thread[system.activeCount()];
         system.enumerate(t);
         Arrays.stream(t).forEach(k-> System.out.println(k.getName()));
